@@ -1,0 +1,18 @@
+/* ============================================= */
+/*              Header                           */
+/* ============================================= */ 
+
+#header {
+    @include flexy($just: space-between, $align: center);
+    margin: .5rem 1rem;
+
+}
+
+.header-logo {
+    width: 145px;
+}
+
+.header-nav {
+    list-style: none;
+    display: none;
+}
