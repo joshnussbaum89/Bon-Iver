@@ -1,0 +1,17 @@
+/* ============================================= */
+/*              Overlay                          */
+/* ============================================= */
+
+.overlay {
+    height: 100%;
+    width: 0;
+    text-align: center;
+    color: black;
+    margin-top: 75px;
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: 0.4s; 
+  }

@@ -14,5 +14,7 @@
 
 .header-nav {
     list-style: none;
-    display: none;
+    li {
+        margin: 1.5rem;
+    }
 }
