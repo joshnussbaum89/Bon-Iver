@@ -10,12 +10,13 @@
 }
 
 // Flex container
-@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $align: null) {
+@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $align: null, $align-self: null) {
   display: $disp;
   flex-direction: $dir;
   flex-wrap: $wrap;
   justify-content: $just;
   align-items: $align;
+  align-self: $align-self;
 }
 
 // Max width

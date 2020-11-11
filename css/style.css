@@ -1353,6 +1353,14 @@ body {
 /* ============================================= */
 /*              Header                           */
 /* ============================================= */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
 #header {
   display: flex;
   justify-content: space-between;
@@ -1395,6 +1403,12 @@ body {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
+.hero-img {
+  width: 65%;
+  max-width: 350px;
+  align-self: center;
+}
+
 /* ============================================= */
 /*              Overlay                          */
 /* ============================================= */
