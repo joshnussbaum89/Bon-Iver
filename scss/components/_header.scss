@@ -5,7 +5,6 @@
 #header {
     @include flexy($just: space-between, $align: center);
     margin: .5rem 1rem;
-
 }
 
 .header-logo {
@@ -18,3 +17,22 @@
         margin: 1.5rem;
     }
 }
+
+.header-nav-md {
+    display: none;
+    list-style: none;
+    li {
+        margin: auto 1rem;
+        a {
+            color: #00e;
+            padding-bottom: 10px;
+            text-decoration: none;
+            transition: .4s;
+            border-bottom: 2px solid rgba(0, 0, 238, 0);
+            &:hover {
+                border-bottom: 2px solid #00e;
+            }
+        }
+    }
+}
+

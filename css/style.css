@@ -1370,6 +1370,24 @@ body {
   margin: 1.5rem;
 }
 
+.header-nav-md {
+  display: none;
+  list-style: none;
+}
+.header-nav-md li {
+  margin: auto 1rem;
+}
+.header-nav-md li a {
+  color: #00e;
+  padding-bottom: 10px;
+  text-decoration: none;
+  transition: 0.4s;
+  border-bottom: 2px solid rgba(0, 0, 238, 0);
+}
+.header-nav-md li a:hover {
+  border-bottom: 2px solid #00e;
+}
+
 /* ============================================= */
 /*              Button                           */
 /* ============================================= */
@@ -1396,5 +1414,21 @@ body {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
+@media (min-width: 960px) {
+  #header {
+    margin: 2rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .header-nav-md {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
