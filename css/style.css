@@ -1429,6 +1429,10 @@ body {
     align-items: center;
     text-transform: uppercase;
   }
+
+  .overlay {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

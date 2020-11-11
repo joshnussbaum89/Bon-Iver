@@ -16,4 +16,8 @@
         @include flexy($just: space-between, $align: center);
         text-transform: uppercase;
     }
+
+    .overlay {
+        display: none;
+    }
 }
